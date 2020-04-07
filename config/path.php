@@ -92,6 +92,9 @@ return [
 
     //网站相关页面缓存信息
     'Contactus' => 'Contactus',//联系我们
+
+    //网站相关页面缓存信息
+    'Returnpolicy' => 'Returnpolicy',//联系我们
 ];
 
 ?>
