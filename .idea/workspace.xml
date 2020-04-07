@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef0706be-d28b-4290-afad-0c99c53addad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/thinkphp/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="India-2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZyMP2yhojrZoJi0uqtJAPwtBMN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/common/validate" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/common/validate" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef0706be-d28b-4290-afad-0c99c53addad" name="Default Changelist" comment="" />
+      <created>1585806852825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585806852825</updated>
+      <workItem from="1585806855087" duration="33471000" />
+      <workItem from="1586077178318" duration="28662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="135" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586232607691">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="395" y="135" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.806@0.23.1440.806" timestamp="1586232607691" />
+    <state x="499" y="347" key="NewPhpFileDialog" timestamp="1586232313217">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="499" y="347" key="NewPhpFileDialog/0.23.1440.806@0.23.1440.806" timestamp="1586232313217" />
+    <state x="792" y="336" key="NewPhpFileDialog/0.23.1440.812@0.23.1440.812" timestamp="1585986042202" />
+    <state x="105" y="23" key="SettingsEditor" timestamp="1585982150283">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="105" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1585982150283" />
+    <state x="301" y="23" width="838" height="806" key="search.everywhere.popup" timestamp="1586231184817">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="301" y="23" width="838" height="806" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1586231184817" />
+    <state x="301" y="23" width="838" height="808" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1585995780203" />
+    <state x="301" y="23" width="838" height="812" key="search.everywhere.popup/0.23.1440.812@0.23.1440.812" timestamp="1585984065696" />
+  </component>
+</project>

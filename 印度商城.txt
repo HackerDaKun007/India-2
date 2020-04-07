@@ -1,0 +1,103 @@
+商城名称: 联联周边游
+开发框架: tp5.1
+参与人员: 吴坤盛、杨总、施总、黄总
+技术人员: 吴坤盛(后端及前端开发)
+公司名称: 乐美购科技有限公司
+
+数据库名称: India-2
+数据库前缀: ln_
+
+/**** 数据库功能表 ****/
+
+/* 权限表列表 */
+表名: ln_power
+id:          power_id
+名称:         username
+是否展示栏目:   whether(1是，2否)
+等级:         grade(1级，2级，3级)
+父级ID:       level
+控制器:       controller
+方法名:       method
+控制器方法合并:url
+排序:        sort
+添加时间:     create_time
+修改时间:     update_time
+
+/* 角色表 */
+表名: ln_role
+id:        role_id
+名称:       username
+超级管理员   admin(1是，2否)
+权限列表ID:  power_id(1,1,2,23)
+添加时间:    create_time
+修改时间:    update_time
+
+/* 管理员表 */
+表名: ln_admin
+id:        admin_id
+头像:       img
+角色id:     role_id
+用户名称:    username
+用户密码:    password
+用户加密:    encrypt
+是否禁用:    disable(1启用，2禁用)
+邮件:       mail(可以为空)
+姓名:       name(可以为空)
+电话:       tei(可以为空)
+性别:       sex(1男，2女)
+添加时间:    create_time
+修改时间:    update_time
+
+/** 登陆记录 **/
+表名：ln_adminrecord
+id:         adminrecord_id
+用户ID:      admin_id
+ip:         ip
+ip地区：     ipaddr
+游览器:      bro
+系统:        os
+登陆时间:     record_time
+
+
+/** 网站相关设置 **/
+表名: ln_web
+id          web_id
+网站名称:     username
+SEO          seo
+SEO介绍       seointroduction
+网站logo      logo
+网站ico       ico
+
+/** 产品归类 **/
+表名: ln_classify
+id         classify_id
+名称        username
+添加时间:    create_time
+修改时间:    update_time
+
+/** 流量日期  **/
+表名:   ln_flowdate
+id      flowdate_id
+日期:    date
+pv次数   pv
+uv次数   uv
+
+
+/** pv **/
+表名:   sa_pv
+id           pv_id
+日期ID        flowdate_id
+URL地址       url
+IP地址        ip
+IP地区        ipadder
+次数          num
+添加时间       addtime
+
+/** uv **/
+表名:   sa_uv
+id           uv_id
+日期ID        flowdate_id
+IP地址        ip
+IP地区        ipadder
+添加时间       addtime
+
