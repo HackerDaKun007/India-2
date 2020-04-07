@@ -68,13 +68,6 @@ SEO介绍       seointroduction
 网站logo      logo
 网站ico       ico
 
-/** 产品归类 **/
-表名: ln_classify
-id         classify_id
-名称        username
-添加时间:    create_time
-修改时间:    update_time
-
 /** 流量日期  **/
 表名:   ln_flowdate
 id      flowdate_id
@@ -101,3 +94,44 @@ IP地址        ip
 IP地区        ipadder
 添加时间       addtime
 
+/** 网站相关页面 - 关于我们 **/
+表名: ln_aboutus
+id          aboutus_id
+标题         username
+内容         content
+
+/** 网站相关页面 - 货运信息 **/
+表名: ln_shippinginfo
+id          shippinginfo_id
+标题         username
+内容         content
+
+/** 网站相关页面 - 常问问题 **/
+表名: ln_faq
+id          faq_id
+标题         username
+内容         content
+
+/** 网站相关页面 - 联系我们 **/
+表名: ln_contactus
+id          contactus_id
+标题         username
+内容         content
+
+/** 网站相关页面 - 退货政策 **/
+表名: ln_returnpolicy
+id          returnpolicy_id
+标题         username
+内容         content
+
+/** 网站相关页面 - 条款条件 **/
+表名: ln_termsconditions
+id          termsconditions_id
+标题         username
+内容         content
+
+/** 网站相关页面 - 隐私政策 **/
+表名: ln_privacypolicy
+id          privacypolicy_id
+标题         username
+内容         content

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： localhost
--- 生成日期： 2020-04-07 07:42:06
+-- 生成日期： 2020-04-07 08:02:46
 -- 服务器版本： 5.7.26
 -- PHP 版本： 7.3.8
 
@@ -21,6 +21,25 @@ SET time_zone = "+00:00";
 --
 -- 数据库： `India-2`
 --
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_aboutus`
+--
+
+CREATE TABLE `ln_aboutus` (
+  `aboutus_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_aboutus`
+--
+
+INSERT INTO `ln_aboutus` (`aboutus_id`, `username`, `content`) VALUES
+(1, '12312', '312312312');
 
 -- --------------------------------------------------------
 
@@ -94,6 +113,44 @@ CREATE TABLE `ln_classify` (
   `create_time` int(11) NOT NULL,
   `update_time` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_contactus`
+--
+
+CREATE TABLE `ln_contactus` (
+  `contactus_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_contactus`
+--
+
+INSERT INTO `ln_contactus` (`contactus_id`, `username`, `content`) VALUES
+(1, '2131', '1231');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_faq`
+--
+
+CREATE TABLE `ln_faq` (
+  `faq_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_faq`
+--
+
+INSERT INTO `ln_faq` (`faq_id`, `username`, `content`) VALUES
+(1, '1231', '123123');
 
 -- --------------------------------------------------------
 
@@ -173,6 +230,25 @@ INSERT INTO `ln_power` (`power_id`, `username`, `whether`, `grade`, `level`, `co
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `ln_privacypolicy`
+--
+
+CREATE TABLE `ln_privacypolicy` (
+  `privacypolicy_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_privacypolicy`
+--
+
+INSERT INTO `ln_privacypolicy` (`privacypolicy_id`, `username`, `content`) VALUES
+(1, '123', '123');
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `ln_pv`
 --
 
@@ -197,6 +273,25 @@ INSERT INTO `ln_pv` (`pv_id`, `flowdate_id`, `url`, `ip`, `ipadder`, `num`, `add
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `ln_returnpolicy`
+--
+
+CREATE TABLE `ln_returnpolicy` (
+  `returnpolicy_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_returnpolicy`
+--
+
+INSERT INTO `ln_returnpolicy` (`returnpolicy_id`, `username`, `content`) VALUES
+(1, '12312', '111');
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `ln_role`
 --
 
@@ -217,6 +312,44 @@ INSERT INTO `ln_role` (`role_id`, `username`, `admin`, `power_id`, `create_time`
 (1, '超级管理员', 1, '17,12,13,14,15,16,18,19,20,21,22,23,24,25', 1583661449, 1583708661),
 (5, '普通管理员', 2, '17,12,18,19,20,21,22,23,24,25', 1583669617, 1583708676),
 (6, '客服', 2, '17', 1583825035, 1583825035);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_shippinginfo`
+--
+
+CREATE TABLE `ln_shippinginfo` (
+  `shippinginfo_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_shippinginfo`
+--
+
+INSERT INTO `ln_shippinginfo` (`shippinginfo_id`, `username`, `content`) VALUES
+(1, '23123', '123213');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_termsconditions`
+--
+
+CREATE TABLE `ln_termsconditions` (
+  `termsconditions_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_termsconditions`
+--
+
+INSERT INTO `ln_termsconditions` (`termsconditions_id`, `username`, `content`) VALUES
+(1, '231', '111');
 
 -- --------------------------------------------------------
 
@@ -267,6 +400,12 @@ INSERT INTO `ln_web` (`web_id`, `username`, `seo`, `seointroduction`, `logo`, `i
 --
 
 --
+-- 表的索引 `ln_aboutus`
+--
+ALTER TABLE `ln_aboutus`
+  ADD PRIMARY KEY (`aboutus_id`);
+
+--
 -- 表的索引 `ln_admin`
 --
 ALTER TABLE `ln_admin`
@@ -287,6 +426,18 @@ ALTER TABLE `ln_classify`
   ADD PRIMARY KEY (`classify_id`);
 
 --
+-- 表的索引 `ln_contactus`
+--
+ALTER TABLE `ln_contactus`
+  ADD PRIMARY KEY (`contactus_id`);
+
+--
+-- 表的索引 `ln_faq`
+--
+ALTER TABLE `ln_faq`
+  ADD PRIMARY KEY (`faq_id`);
+
+--
 -- 表的索引 `ln_flowdate`
 --
 ALTER TABLE `ln_flowdate`
@@ -299,6 +450,12 @@ ALTER TABLE `ln_power`
   ADD PRIMARY KEY (`power_id`);
 
 --
+-- 表的索引 `ln_privacypolicy`
+--
+ALTER TABLE `ln_privacypolicy`
+  ADD PRIMARY KEY (`privacypolicy_id`);
+
+--
 -- 表的索引 `ln_pv`
 --
 ALTER TABLE `ln_pv`
@@ -306,11 +463,29 @@ ALTER TABLE `ln_pv`
   ADD KEY `flowdate_id` (`flowdate_id`);
 
 --
+-- 表的索引 `ln_returnpolicy`
+--
+ALTER TABLE `ln_returnpolicy`
+  ADD PRIMARY KEY (`returnpolicy_id`);
+
+--
 -- 表的索引 `ln_role`
 --
 ALTER TABLE `ln_role`
   ADD PRIMARY KEY (`role_id`),
   ADD KEY `power_id` (`power_id`);
+
+--
+-- 表的索引 `ln_shippinginfo`
+--
+ALTER TABLE `ln_shippinginfo`
+  ADD PRIMARY KEY (`shippinginfo_id`);
+
+--
+-- 表的索引 `ln_termsconditions`
+--
+ALTER TABLE `ln_termsconditions`
+  ADD PRIMARY KEY (`termsconditions_id`);
 
 --
 -- 表的索引 `ln_uv`
@@ -328,6 +503,12 @@ ALTER TABLE `ln_web`
 --
 -- 在导出的表使用AUTO_INCREMENT
 --
+
+--
+-- 使用表AUTO_INCREMENT `ln_aboutus`
+--
+ALTER TABLE `ln_aboutus`
+  MODIFY `aboutus_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- 使用表AUTO_INCREMENT `ln_admin`
@@ -348,6 +529,18 @@ ALTER TABLE `ln_classify`
   MODIFY `classify_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- 使用表AUTO_INCREMENT `ln_contactus`
+--
+ALTER TABLE `ln_contactus`
+  MODIFY `contactus_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- 使用表AUTO_INCREMENT `ln_faq`
+--
+ALTER TABLE `ln_faq`
+  MODIFY `faq_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- 使用表AUTO_INCREMENT `ln_flowdate`
 --
 ALTER TABLE `ln_flowdate`
@@ -360,16 +553,40 @@ ALTER TABLE `ln_power`
   MODIFY `power_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=121;
 
 --
+-- 使用表AUTO_INCREMENT `ln_privacypolicy`
+--
+ALTER TABLE `ln_privacypolicy`
+  MODIFY `privacypolicy_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- 使用表AUTO_INCREMENT `ln_pv`
 --
 ALTER TABLE `ln_pv`
   MODIFY `pv_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- 使用表AUTO_INCREMENT `ln_returnpolicy`
+--
+ALTER TABLE `ln_returnpolicy`
+  MODIFY `returnpolicy_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- 使用表AUTO_INCREMENT `ln_role`
 --
 ALTER TABLE `ln_role`
   MODIFY `role_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- 使用表AUTO_INCREMENT `ln_shippinginfo`
+--
+ALTER TABLE `ln_shippinginfo`
+  MODIFY `shippinginfo_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- 使用表AUTO_INCREMENT `ln_termsconditions`
+--
+ALTER TABLE `ln_termsconditions`
+  MODIFY `termsconditions_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- 使用表AUTO_INCREMENT `ln_uv`
