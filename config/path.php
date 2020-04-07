@@ -95,6 +95,12 @@ return [
 
     //网站相关页面缓存信息
     'Returnpolicy' => 'Returnpolicy',//联系我们
+
+    //网站相关页面缓存信息
+    'Termsconditions' => 'Termsconditions',//条款条件
+
+    //网站相关页面缓存信息
+    'Privacypolicy' => 'Privacypolicy',//隐私政策
 ];
 
 ?>
