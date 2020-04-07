@@ -2722,3 +2722,33 @@
 [ info ] [ PARAM ] array (
   'cn' => 'zh-cn.js',
 )
+---------------------------------------------------------------
+[2020-04-07T15:09:31+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/aboutus/edit.html
+[运行时间：0.119007s] [吞吐率：8.40req/s] [内存消耗：3,346.56kb] [文件加载：89]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '58',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ewqeq',
+  'content' => '<p>312312312eqwe</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_aboutus` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] UPDATE `ln_aboutus`  SET `username` = '12312ewqeq' , `content` = '<p>312312312eqwe</p>'  WHERE  `aboutus_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_aboutus` WHERE  `aboutus_id` = 1 LIMIT 1 [ RunTime:0.000000s ]

@@ -82,7 +82,10 @@ return [
     'goodsClassify' => 'goodsClassify',
 
     //网站相关页面缓存信息
-    'Aboutus' => 'Aboutus' //关于我们
+    'Aboutus' => 'Aboutus', //关于我们
+
+    //网站镶黄页面缓存信息
+    'shippingInfo' => 'shippingInfo',//货运信息
 ];
 
 ?>
