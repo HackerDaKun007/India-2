@@ -80,6 +80,9 @@ return [
 
     //产品归类列表
     'goodsClassify' => 'goodsClassify',
+
+    //网站相关页面缓存信息
+    'Aboutus' => 'Aboutus' //关于我们
 ];
 
 ?>
