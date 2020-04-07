@@ -25,7 +25,7 @@ class Shippinginfo extends common {
         $allow = ['username', 'content'];
         self::startTrans();
         try {
-            if(self::isUpdate(true)->allowField($allow)->save()){
+            if(self::isUpdate(true)->allowField($allow)->save($data, ['shippinginfo_id'=>1])){
                 $code = 1;
                 $msg = "修改成功";
                 $this->cacheUpdate($cache);
@@ -49,7 +49,7 @@ class Shippinginfo extends common {
     public function readCache($cache) {
        $data = $cache::get($this->path['shippingInfo']);
        if(!$data) {
-           $data = $this->cacheUpdate();
+           $data = $this->cacheUpdate($cache);
        }
        return $data;
     }

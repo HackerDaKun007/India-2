@@ -2752,3 +2752,3509 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `ln_aboutus` [ RunTime:0.003000s ]
 [ sql ] [ SQL ] UPDATE `ln_aboutus`  SET `username` = '12312ewqeq' , `content` = '<p>312312312eqwe</p>'  WHERE  `aboutus_id` = 1 [ RunTime:0.001000s ]
 [ sql ] [ SQL ] SELECT * FROM `ln_aboutus` WHERE  `aboutus_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2020-04-07T16:32:52+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/aboutus/edit.html
+[运行时间：0.145008s] [吞吐率：6.90req/s] [内存消耗：3,346.89kb] [文件加载：89]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '58',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ewqeq',
+  'content' => '<p>312312312eqwe</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_aboutus` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] UPDATE `ln_aboutus`  SET `username` = '12312ewqeq' , `content` = '<p>312312312eqwe</p>'  WHERE  `aboutus_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_aboutus` WHERE  `aboutus_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2020-04-07T16:43:48+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.097005s] [吞吐率：10.31req/s] [内存消耗：2,442.45kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T16:43:49+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.112006s] [吞吐率：8.93req/s] [内存消耗：2,473.23kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T16:43:49+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.068004s] [吞吐率：14.71req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:19:04+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.113007s] [吞吐率：8.85req/s] [内存消耗：2,473.23kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:19:04+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.075004s] [吞吐率：13.33req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:26:43+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Web/index.html
+[运行时间：0.113006s] [吞吐率：8.85req/s] [内存消耗：2,496.01kb] [文件加载：88]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\web\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:26:52+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Admin/index.html
+[运行时间：0.123007s] [吞吐率：8.13req/s] [内存消耗：3,555.51kb] [文件加载：93]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\admin\index.html [ array (
+  0 => 'personal',
+  1 => 'role',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_role` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `role_id`,`username` FROM `ln_role` ORDER BY `role_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2020-04-07T17:26:52+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/admin/index.html?page=1&limit=10&request=200
+[运行时间：0.118007s] [吞吐率：8.47req/s] [内存消耗：3,615.45kb] [文件加载：93]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'request' => '200',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_admin` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_admin` ORDER BY `admin_id` DESC LIMIT 0,11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ln_admin` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2020-04-07T17:26:53+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Role/index.html
+[运行时间：0.091006s] [吞吐率：10.99req/s] [内存消耗：2,413.16kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\role\index.html [ array (
+  0 => 'personal',
+  1 => 'PowerShow',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:26:54+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/role/index.html?page=1&limit=10&request=200
+[运行时间：0.130007s] [吞吐率：7.69req/s] [内存消耗：3,540.84kb] [文件加载：91]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'request' => '200',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_role` ORDER BY `role_id` DESC LIMIT 0,11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ln_role` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2020-04-07T17:26:55+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Power/index.html
+[运行时间：0.098005s] [吞吐率：10.20req/s] [内存消耗：2,486.91kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\power\index.html [ array (
+  0 => 'personal',
+  1 => 'controller',
+  2 => 'PowerW1',
+  3 => 'PowerW2',
+  4 => 'PowerW3',
+  5 => 'cacheShow',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:27:00+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Web/index.html
+[运行时间：0.115007s] [吞吐率：8.70req/s] [内存消耗：2,496.01kb] [文件加载：88]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\web\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:27:05+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Power/index.html
+[运行时间：0.087005s] [吞吐率：11.49req/s] [内存消耗：2,486.91kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\power\index.html [ array (
+  0 => 'personal',
+  1 => 'controller',
+  2 => 'PowerW1',
+  3 => 'PowerW2',
+  4 => 'PowerW3',
+  5 => 'cacheShow',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:27:19+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/add.html
+[运行时间：0.083005s] [吞吐率：12.05req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:27:46+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/edit.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:28:03+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/add.html
+[运行时间：0.093005s] [吞吐率：10.75req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:28:27+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/add.html
+[运行时间：0.074004s] [吞吐率：13.51req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:28:36+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/renew.html
+[运行时间：0.108006s] [吞吐率：9.26req/s] [内存消耗：3,345.43kb] [文件加载：96]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-04-07T17:28:38+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/add.html
+[运行时间：0.082005s] [吞吐率：12.19req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:28:41+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Power/index.html
+[运行时间：0.090005s] [吞吐率：11.11req/s] [内存消耗：2,486.91kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\power\index.html [ array (
+  0 => 'personal',
+  1 => 'controller',
+  2 => 'PowerW1',
+  3 => 'PowerW2',
+  4 => 'PowerW3',
+  5 => 'cacheShow',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:28:47+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/renew.html
+[运行时间：0.109007s] [吞吐率：9.17req/s] [内存消耗：3,345.43kb] [文件加载：96]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-04-07T17:28:48+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Power/index.html
+[运行时间：0.076004s] [吞吐率：13.16req/s] [内存消耗：2,486.91kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\power\index.html [ array (
+  0 => 'personal',
+  1 => 'controller',
+  2 => 'PowerW1',
+  3 => 'PowerW2',
+  4 => 'PowerW3',
+  5 => 'cacheShow',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:28:49+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/add.html
+[运行时间：0.082005s] [吞吐率：12.19req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:29:13+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/add.html
+[运行时间：0.146008s] [吞吐率：6.85req/s] [内存消耗：3,477.91kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '118',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'grade' => '2',
+  'level' => '121',
+  'username' => '货运信息',
+  'controller' => 'Shippinginfo',
+  'method' => 'index',
+  'whether' => '1',
+  'sort' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_power` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] INSERT INTO `ln_power` (`grade` , `level` , `username` , `controller` , `method` , `whether` , `sort` , `url` , `create_time` , `update_time`) VALUES (2 , 121 , '货运信息' , 'Shippinginfo' , 'index' , 1 , 10 , 'Shippinginfo/index' , 1586251753 , 1586251753) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_power` WHERE  `grade` = 2 ORDER BY `sort` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2020-04-07T17:29:16+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/edit.html
+[运行时间：0.096006s] [吞吐率：10.42req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:29:21+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.077004s] [吞吐率：12.99req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:29:22+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Power/index.html
+[运行时间：0.124007s] [吞吐率：8.06req/s] [内存消耗：2,487.84kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\power\index.html [ array (
+  0 => 'personal',
+  1 => 'controller',
+  2 => 'PowerW1',
+  3 => 'PowerW2',
+  4 => 'PowerW3',
+  5 => 'cacheShow',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:29:24+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.073004s] [吞吐率：13.70req/s] [内存消耗：1,914.34kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\lmgadmin\controller\common' not found[D:\www\India-2\application\lmgadmin\controller\Shippinginfo.php:16]
+---------------------------------------------------------------
+[2020-04-07T17:29:26+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.059003s] [吞吐率：16.95req/s] [内存消耗：1,914.34kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\lmgadmin\controller\common' not found[D:\www\India-2\application\lmgadmin\controller\Shippinginfo.php:16]
+---------------------------------------------------------------
+[2020-04-07T17:29:27+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.085005s] [吞吐率：11.76req/s] [内存消耗：2,473.23kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:29:27+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.066004s] [吞吐率：15.15req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:29:30+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.066003s] [吞吐率：15.15req/s] [内存消耗：1,914.34kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\lmgadmin\controller\common' not found[D:\www\India-2\application\lmgadmin\controller\Shippinginfo.php:16]
+---------------------------------------------------------------
+[2020-04-07T17:29:32+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.098006s] [吞吐率：10.20req/s] [内存消耗：2,473.23kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:29:32+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.061003s] [吞吐率：16.39req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:29:34+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Power/index.html
+[运行时间：0.089005s] [吞吐率：11.24req/s] [内存消耗：2,487.84kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\power\index.html [ array (
+  0 => 'personal',
+  1 => 'controller',
+  2 => 'PowerW1',
+  3 => 'PowerW2',
+  4 => 'PowerW3',
+  5 => 'cacheShow',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:29:41+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/edit.html
+[运行时间：0.085005s] [吞吐率：11.76req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:29:47+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/power/edit.html
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：2,387.70kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-04-07T17:29:55+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.076004s] [吞吐率：13.16req/s] [内存消耗：1,914.34kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\lmgadmin\controller\common' not found[D:\www\India-2\application\lmgadmin\controller\Shippinginfo.php:16]
+---------------------------------------------------------------
+[2020-04-07T17:30:37+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.070004s] [吞吐率：14.28req/s] [内存消耗：1,914.34kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\lmgadmin\controller\common' not found[D:\www\India-2\application\lmgadmin\controller\Shippinginfo.php:16]
+---------------------------------------------------------------
+[2020-04-07T17:30:40+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.065003s] [吞吐率：15.38req/s] [内存消耗：1,914.34kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\lmgadmin\controller\common' not found[D:\www\India-2\application\lmgadmin\controller\Shippinginfo.php:16]
+---------------------------------------------------------------
+[2020-04-07T17:30:45+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：1,914.34kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'app\lmgadmin\controller\common' not found[D:\www\India-2\application\lmgadmin\controller\Shippinginfo.php:16]
+---------------------------------------------------------------
+[2020-04-07T17:32:16+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.134007s] [吞吐率：7.46req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:32:17+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.150008s] [吞吐率：6.67req/s] [内存消耗：2,455.58kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类型错误: Too few arguments to function app\common\model\Shippinginfo::cacheUpdate(), 0 passed in D:\www\India-2\application\common\model\Shippinginfo.php on line 52 and exactly 1 expected[D:\www\India-2\application\common\model\Shippinginfo.php:40]
+---------------------------------------------------------------
+[2020-04-07T17:32:18+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.115007s] [吞吐率：8.70req/s] [内存消耗：2,455.58kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类型错误: Too few arguments to function app\common\model\Shippinginfo::cacheUpdate(), 0 passed in D:\www\India-2\application\common\model\Shippinginfo.php on line 52 and exactly 1 expected[D:\www\India-2\application\common\model\Shippinginfo.php:40]
+---------------------------------------------------------------
+[2020-04-07T17:32:19+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.103006s] [吞吐率：9.71req/s] [内存消耗：2,455.58kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]类型错误: Too few arguments to function app\common\model\Shippinginfo::cacheUpdate(), 0 passed in D:\www\India-2\application\common\model\Shippinginfo.php on line 52 and exactly 1 expected[D:\www\India-2\application\common\model\Shippinginfo.php:40]
+---------------------------------------------------------------
+[2020-04-07T17:34:28+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.137008s] [吞吐率：7.30req/s] [内存消耗：3,615.30kb] [文件加载：94]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_shippinginfo` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_shippinginfo` WHERE  `shippinginfo_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2020-04-07T17:34:28+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.074004s] [吞吐率：13.51req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:34:33+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.095006s] [吞吐率：10.53req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:34:34+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.207012s] [吞吐率：4.83req/s] [内存消耗：2,470.61kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:34:34+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.079004s] [吞吐率：12.66req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:34:40+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.080005s] [吞吐率：12.50req/s] [内存消耗：2,470.61kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:34:41+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.060004s] [吞吐率：16.67req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:35:15+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.104006s] [吞吐率：9.61req/s] [内存消耗：2,470.61kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:35:15+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.075004s] [吞吐率：13.33req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:36:15+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.081005s] [吞吐率：12.34req/s] [内存消耗：2,435.66kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T17:45:15+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.091005s] [吞吐率：10.99req/s] [内存消耗：2,435.66kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '23123sh',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T17:45:18+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.089005s] [吞吐率：11.24req/s] [内存消耗：2,435.66kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '23123sh',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T17:47:11+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.108006s] [吞吐率：9.26req/s] [内存消耗：2,473.23kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:47:11+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.064004s] [吞吐率：15.62req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:47:18+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/aboutus/edit.html
+[运行时间：0.129007s] [吞吐率：7.75req/s] [内存消耗：3,346.85kb] [文件加载：89]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '54',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wahaha',
+  'content' => '<p>312312312eqwe</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_aboutus` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] UPDATE `ln_aboutus`  SET `username` = 'wahaha' , `content` = '<p>312312312eqwe</p>'  WHERE  `aboutus_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_aboutus` WHERE  `aboutus_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[2020-04-07T17:47:25+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.096005s] [吞吐率：10.42req/s] [内存消耗：2,470.61kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:47:25+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.060003s] [吞吐率：16.67req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:47:30+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.089005s] [吞吐率：11.24req/s] [内存消耗：2,435.66kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'hello',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T17:47:52+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.090005s] [吞吐率：11.11req/s] [内存消耗：2,470.61kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:47:52+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.062003s] [吞吐率：16.13req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T17:48:07+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.105006s] [吞吐率：9.52req/s] [内存消耗：2,435.66kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T17:51:41+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.133007s] [吞吐率：7.52req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:51:42+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.150008s] [吞吐率：6.67req/s] [内存消耗：2,470.70kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T17:51:42+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.076004s] [吞吐率：13.16req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:17:52+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.139008s] [吞吐率：7.19req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:17:53+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.151009s] [吞吐率：6.62req/s] [内存消耗：2,472.95kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:17:53+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.087005s] [吞吐率：11.49req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:17:55+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.095005s] [吞吐率：10.53req/s] [内存消耗：2,472.95kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:17:55+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.063004s] [吞吐率：15.87req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:18:02+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.082005s] [吞吐率：12.19req/s] [内存消耗：2,435.90kb] [文件加载：85]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '77',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息',
+  'content' => '<p>123213</p>',
+)
+[ error ] [0]方法参数错误:data[D:\www\India-2\thinkphp\library\think\Container.php:480]
+---------------------------------------------------------------
+[2020-04-07T18:18:12+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.079005s] [吞吐率：12.66req/s] [内存消耗：2,472.95kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:18:12+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.063004s] [吞吐率：15.87req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:18:14+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.109006s] [吞吐率：9.17req/s] [内存消耗：2,473.22kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:18:14+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.065004s] [吞吐率：15.38req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:18:15+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.085004s] [吞吐率：11.76req/s] [内存消耗：2,472.95kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:18:15+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.078005s] [吞吐率：12.82req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:18:18+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.092005s] [吞吐率：10.87req/s] [内存消耗：2,472.95kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:18:18+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.065004s] [吞吐率：15.38req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:18:22+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.083005s] [吞吐率：12.05req/s] [内存消耗：2,435.85kb] [文件加载：85]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '11',
+  'content' => '<p>123213</p>',
+)
+[ error ] [0]方法参数错误:data[D:\www\India-2\thinkphp\library\think\Container.php:480]
+---------------------------------------------------------------
+[2020-04-07T18:18:31+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.128008s] [吞吐率：7.81req/s] [内存消耗：2,472.95kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:18:32+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.094005s] [吞吐率：10.64req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:18:36+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.121007s] [吞吐率：8.26req/s] [内存消耗：2,435.85kb] [文件加载：85]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '23123',
+  'content' => '<p>123213</p>',
+)
+[ error ] [0]方法参数错误:data[D:\www\India-2\thinkphp\library\think\Container.php:480]
+---------------------------------------------------------------
+[2020-04-07T18:19:25+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.109006s] [吞吐率：9.17req/s] [内存消耗：2,472.95kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:19:25+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:19:29+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.130007s] [吞吐率：7.69req/s] [内存消耗：2,435.85kb] [文件加载：85]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '46',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '23123',
+  'content' => '<p>123213</p>',
+)
+[ error ] [0]方法参数错误:data[D:\www\India-2\thinkphp\library\think\Container.php:480]
+---------------------------------------------------------------
+[2020-04-07T18:20:52+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.123007s] [吞吐率：8.13req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:20:53+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.169010s] [吞吐率：5.92req/s] [内存消耗：2,472.89kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:20:53+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.072004s] [吞吐率：13.89req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:20:55+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.107007s] [吞吐率：9.35req/s] [内存消耗：2,472.89kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:20:55+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.098005s] [吞吐率：10.20req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:21:02+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.139008s] [吞吐率：7.19req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:21:16+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.087005s] [吞吐率：11.49req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:21:50+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.084005s] [吞吐率：11.90req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:21:55+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.091005s] [吞吐率：10.99req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:22:16+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.097005s] [吞吐率：10.31req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:22:56+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.106006s] [吞吐率：9.43req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:23:09+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.107006s] [吞吐率：9.35req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:23:20+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.097005s] [吞吐率：10.31req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:23:25+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.095005s] [吞吐率：10.53req/s] [内存消耗：2,378.66kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:25:57+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.129007s] [吞吐率：7.75req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:25:58+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.172010s] [吞吐率：5.81req/s] [内存消耗：2,473.30kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:25:58+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.075004s] [吞吐率：13.33req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:26:04+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.123008s] [吞吐率：8.13req/s] [内存消耗：2,378.63kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '64',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:26:08+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.099006s] [吞吐率：10.10req/s] [内存消耗：2,378.63kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '64',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:27:02+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.083005s] [吞吐率：12.05req/s] [内存消耗：2,378.63kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '64',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:27:04+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.095006s] [吞吐率：10.53req/s] [内存消耗：2,378.63kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '64',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:27:05+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：2,378.63kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '64',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:27:53+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.093005s] [吞吐率：10.75req/s] [内存消耗：2,378.63kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '64',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:28:00+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.121007s] [吞吐率：8.26req/s] [内存消耗：2,378.74kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '109',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运23123爱上大法师',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:29:22+08:00] 127.0.0.1 GET www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E
+[运行时间：0.081004s] [吞吐率：12.35req/s] [内存消耗：2,443.38kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12312ddd',
+  'content' => '<p>312312312dfdfdsfsdf</p>',
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\index\index.html [ array (
+  0 => 'personal',
+  1 => 'column',
+  2 => 'AdminArray',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:29:23+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.130007s] [吞吐率：7.69req/s] [内存消耗：2,473.30kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:29:23+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.084005s] [吞吐率：11.90req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:29:25+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.111006s] [吞吐率：9.01req/s] [内存消耗：2,473.30kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:29:25+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.099006s] [吞吐率：10.10req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:29:34+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.087005s] [吞吐率：11.49req/s] [内存消耗：2,378.65kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '73',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '娃哈哈23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:29:37+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：2,378.65kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '73',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '娃哈哈23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:29:41+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.098006s] [吞吐率：10.20req/s] [内存消耗：2,378.65kb] [文件加载：83]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '73',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '娃哈哈23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:30:49+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.120007s] [吞吐率：8.33req/s] [内存消耗：2,408.39kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '73',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '娃哈哈23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:31:05+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.116007s] [吞吐率：8.62req/s] [内存消耗：2,408.80kb] [文件加载：82]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '73',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '娃哈哈23123',
+  'content' => '<p>123213</p>',
+)
+---------------------------------------------------------------
+[2020-04-07T18:31:50+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.102006s] [吞吐率：9.80req/s] [内存消耗：2,473.30kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:31:50+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.076004s] [吞吐率：13.16req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:31:57+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/shippinginfo/edit.html
+[运行时间：0.192011s] [吞吐率：5.21req/s] [内存消耗：3,347.19kb] [文件加载：89]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'adddate' => '2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '82',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '货运信息23123',
+  'content' => '<p>123213</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=India-2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ln_shippinginfo` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] UPDATE `ln_shippinginfo`  SET `username` = '货运信息23123' , `content` = '<p>123213</p>'  WHERE  `shippinginfo_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ln_shippinginfo` WHERE  `shippinginfo_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[2020-04-07T18:32:14+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：2,473.22kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:14+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.060003s] [吞吐率：16.67req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:32:15+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.087005s] [吞吐率：11.49req/s] [内存消耗：2,473.32kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:15+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.059004s] [吞吐率：16.95req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:32:16+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.090005s] [吞吐率：11.11req/s] [内存消耗：2,473.22kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:17+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.061003s] [吞吐率：16.39req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:32:17+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.085005s] [吞吐率：11.76req/s] [内存消耗：2,473.32kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:17+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.063004s] [吞吐率：15.87req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:32:19+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.085005s] [吞吐率：11.76req/s] [内存消耗：2,473.22kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:19+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.067004s] [吞吐率：14.92req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:32:20+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.084005s] [吞吐率：11.90req/s] [内存消耗：2,473.32kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:20+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.060004s] [吞吐率：16.67req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:32:21+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Aboutus/index.html
+[运行时间：0.103005s] [吞吐率：9.71req/s] [内存消耗：2,473.22kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\aboutus\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:21+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.065004s] [吞吐率：15.38req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+---------------------------------------------------------------
+[2020-04-07T18:32:22+08:00] 127.0.0.1 POST www.india2.com/lmgadmin/Shippinginfo/index.html
+[运行时间：0.085005s] [吞吐率：11.76req/s] [内存消耗：2,473.32kb] [文件加载：87]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'origin' => 'http://www.india2.com',
+  'adddate' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\www\India-2\application\lmgadmin\view\shippinginfo\index.html [ array (
+  0 => 'personal',
+  1 => 'data',
+) ]
+---------------------------------------------------------------
+[2020-04-07T18:32:22+08:00] 127.0.0.1 GET www.india2.com/lmgadmin/baidu/lang/zh-cn/zh-cn.js
+[运行时间：0.061003s] [吞吐率：16.39req/s] [内存消耗：1,913.05kb] [文件加载：67]
+[ info ] [ LANG ] D:\www\India-2\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=48u8r7sandfqjjs1saqnt02gp8; cokieUser=heMLEvsNC; cokieId=gf1EC; cokieIp=lkAM7ULiOppn-kNHH; cokieBr=ehaj3k0yCdTaI; cokieOs=rnkBHxT0%253DrmbBpeiP; cokieTime=quf0bvFtBvFUYxyhg',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.india2.com/lmgadmin//index/index.html?username=12312ddd&content=%3Cp%3E312312312dfdfdsfsdf%3C%2Fp%3E',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.india2.com',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
