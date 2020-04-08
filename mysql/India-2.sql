@@ -21,6 +21,41 @@ SET time_zone = "+00:00";
 --
 -- 数据库： `India-2`
 --
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_faq`
+--
+
+CREATE TABLE `ln_faq` (
+  `faq_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_faq`
+--
+
+INSERT INTO `ln_power` VALUES (124, ''常问问题'', 1, 2, 121, ''Faq'', ''index'', ''Faq/index'', 10, 1586269599, 1586270924);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_shippinginfo`
+--
+
+CREATE TABLE `ln_shippinginfo` (
+  `shippinginfo_id` int(11) NOT NULL,
+  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_shippinginfo`
+--
+
+INSERT INTO `ln_power` VALUES (123, '货运信息', 1, 2, 121, 'Shippinginfo', 'index', 'Shippinginfo/index', 10, 1586251753, 1586251753);
 
 -- --------------------------------------------------------
 
