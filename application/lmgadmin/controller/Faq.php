@@ -8,32 +8,29 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 网站关于我们
+// | 常问问题
 // +----------------------------------------------------------------------
-
 namespace app\lmgadmin\controller;
-use app\common\model\Aboutus as model;
+use app\common\model\Faq as model;
 
-class Aboutus extends Common {
-
+class Faq extends Common {
     //展示
     public function index() {
         $model = new model();
-        return $this->fetch('',[
-            'data' => $model->readCache($this->cache),
+        return $this->fetch('', [
+            'data'=>$model->readCache($this->cache),
         ]);
     }
-
     //修改
     public function edit() {
-        $msg = 'error';
         $code = 0;
+        $msg = 'error';
         if(self::yzPostAdd()) {
             $input = $this->request->post();
             if(!empty($input['content'])) {
                 $input['content'] = $_POST['content'];
             }
-            $validate = new \app\common\validate\Aboutus();
+            $validate = new \app\common\validate\Faq();
             if(!$validate->check($input)) {
                 $msg = $validate->getError();
             }else {
@@ -45,7 +42,4 @@ class Aboutus extends Common {
         }
         echo self::dataJson($code, $msg);
     }
-
 }
-
-?>

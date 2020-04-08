@@ -8,12 +8,12 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 网站关于我们
+// | 隐私政策
 // +----------------------------------------------------------------------
 namespace app\common\validate;
 use think\Validate;
 
-class Aboutus extends Validate {
+class Privacypolicy extends Validate {
 
     protected $rule = [
         'username' => 'require|length:1,32'

@@ -8,19 +8,18 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 网站关于我们
+// | 货运信息
 // +----------------------------------------------------------------------
 namespace app\common\validate;
 use think\Validate;
 
-class Aboutus extends Validate {
-
+class Shippinginfo extends validate {
     protected $rule = [
-        'username' => 'require|length:1,32'
+       'username' => 'require|length:1,32',
     ];
     protected $message = [
-        'username' => '标题不能为空并且不能大于32字',
+        'username' => '标题不能为空并且不能大于32字'
     ];
-
 }
+
 ?>

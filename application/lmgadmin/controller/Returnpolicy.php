@@ -8,35 +8,31 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 网站关于我们
+// | 退货政策
 // +----------------------------------------------------------------------
-
 namespace app\lmgadmin\controller;
-use app\common\model\Aboutus as model;
-
-class Aboutus extends Common {
-
+use app\common\model\Returnpolicy as model;
+class Returnpolicy extends Common {
     //展示
     public function index() {
-        $model = new model();
-        return $this->fetch('',[
+        $model = new Model();
+        return $this->fetch('', [
             'data' => $model->readCache($this->cache),
         ]);
     }
-
     //修改
     public function edit() {
-        $msg = 'error';
         $code = 0;
+        $msg = '修改失败';
         if(self::yzPostAdd()) {
             $input = $this->request->post();
-            if(!empty($input['content'])) {
+            if(!empty($input['content'])){
                 $input['content'] = $_POST['content'];
             }
-            $validate = new \app\common\validate\Aboutus();
+            $validate = new \app\common\validate\Returnpolicy();
             if(!$validate->check($input)) {
                 $msg = $validate->getError();
-            }else {
+            } else {
                 $model = new model();
                 $data = $model->edit($input, $this->cache);
                 $msg = $data['msg'];
@@ -45,7 +41,4 @@ class Aboutus extends Common {
         }
         echo self::dataJson($code, $msg);
     }
-
 }
-
-?>

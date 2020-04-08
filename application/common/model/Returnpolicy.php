@@ -8,24 +8,23 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 货运信息
+// | 退货政策
 // +----------------------------------------------------------------------
-
 namespace app\common\model;
 
-class Shippinginfo extends common {
+class Returnpolicy extends Common {
     /**
-     * @param $data     修改数据
-     * @param $cache    缓存变量
-     * @return array|false|string  货运信息
+     * @param $data  修改数据
+     * @param $cache  缓存
+     * @return array|false|string
      */
-    public function edit($data, $cache) {
-        $msg = "修改失败";
+    public function edit ($data, $cache) {
         $code = 0;
+        $msg = "修改失败";
         $allow = ['username', 'content'];
         self::startTrans();
         try {
-            if(self::isUpdate(true)->allowField($allow)->save($data, ['shippinginfo_id'=>1])){
+            if(self::isUpdate(true)->allowField($allow)->save($data, ['returnpolicy_id'=>1])) {
                 $code = 1;
                 $msg = "修改成功";
                 $this->cacheUpdate($cache);
@@ -37,20 +36,22 @@ class Shippinginfo extends common {
         return self::dataJson($code, $msg, '', '', true);
     }
 
+    //更新缓存
     public function cacheUpdate($cache) {
-        $data = self::where('shippinginfo_id', '=', 1)->find();
+        $data = self::where('returnpolicy_id', '=', 1)->find();
         if($data) {
             $data = json_decode($data, true);
-            $cache::set($this->path['Shippinginfo'], $data);
+            $cache::set($this->path['Returnpolicy'], $data);
         }
         return $data;
     }
 
+    //读取缓存
     public function readCache($cache) {
-       $data = $cache::get($this->path['Shippinginfo']);
-       if(!$data) {
-           $data = $this->cacheUpdate($cache);
-       }
-       return $data;
+        $data = $cache::get($this->path['Returnpolicy']);
+        if(!$data) {
+            $this->cacheUpdate($cache);
+        }
+        return $data;
     }
 }

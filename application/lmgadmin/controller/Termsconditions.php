@@ -8,13 +8,12 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 网站关于我们
+// | 条款条件
 // +----------------------------------------------------------------------
-
 namespace app\lmgadmin\controller;
-use app\common\model\Aboutus as model;
+use app\common\model\Termsconditions as model;
 
-class Aboutus extends Common {
+class Termsconditions extends Common {
 
     //展示
     public function index() {
@@ -33,7 +32,7 @@ class Aboutus extends Common {
             if(!empty($input['content'])) {
                 $input['content'] = $_POST['content'];
             }
-            $validate = new \app\common\validate\Aboutus();
+            $validate = new \app\common\validate\Termsconditions();
             if(!$validate->check($input)) {
                 $msg = $validate->getError();
             }else {

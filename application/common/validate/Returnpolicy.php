@@ -8,19 +8,17 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 网站关于我们
+// | 退货政策
 // +----------------------------------------------------------------------
 namespace app\common\validate;
+
 use think\Validate;
 
-class Aboutus extends Validate {
-
+class Returnpolicy extends Validate {
     protected $rule = [
-        'username' => 'require|length:1,32'
+        'username' => 'require|length:1,32',
     ];
     protected $message = [
-        'username' => '标题不能为空并且不能大于32字',
+        'username' => '标题不能为空并且不能大于32字'
     ];
-
 }
-?>

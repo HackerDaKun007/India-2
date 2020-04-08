@@ -8,19 +8,18 @@
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 网站关于我们
+// | 联系我们
 // +----------------------------------------------------------------------
 namespace app\common\validate;
 use think\Validate;
 
-class Aboutus extends Validate {
+class Contactus extends Validate {
 
     protected $rule = [
-        'username' => 'require|length:1,32'
-    ];
-    protected $message = [
-        'username' => '标题不能为空并且不能大于32字',
+        "username" => "require|length:1,32",
     ];
 
+    protected $message = [
+        "username" => "标题不能为空并且不能小于32字",
+    ];
 }
-?>

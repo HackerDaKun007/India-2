@@ -29,6 +29,7 @@ class Aboutus extends Common {
                 $code = 1;
                 $msg = '修改成功';
                 $this->cacheUpdate($cache);
+                self::commit();
             }
         }catch (Exception $e) {
             $msg = '服务器异常';

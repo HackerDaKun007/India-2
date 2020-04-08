@@ -24,7 +24,7 @@ class Common extends Controller {
     protected  $request; //定义系统内置方法为静态变量
     protected  $path;
     protected  $gethttp;
-    protected $cookie;
+    protected  $cookie;
 
     protected  $Authority = '';//权限列表目录1维数组
     protected  $PowerShow = ''; //权限列表目录区分等级展示
