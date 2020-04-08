@@ -135,3 +135,31 @@ id          termsconditions_id
 id          privacypolicy_id
 标题         username
 内容         content
+
+/** 产品归类 -  **/
+表名: ln_classify
+id          classify_id
+名称:        username
+添加时间:    create_time
+修改时间:    update_time
+
+/** 产品 **/
+表名:ln_goods
+id           goods_id
+名称:         username
+展示图片       home_img
+内容          content
+价格          price
+原价          orprice
+运费          freight
+产品归类Id     classify_id
+上下架        shelves(1上，2下)
+添加时间:    create_time
+修改时间:    update_time
+
+/** 产品轮播图 **/
+表名:ln_carousel
+id           carousel_id
+产品ID        goods_id
+图片          img
+排序          sort

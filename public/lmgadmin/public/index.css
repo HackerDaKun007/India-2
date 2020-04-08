@@ -5,6 +5,15 @@ html {
 .layui-side {
     z-index: 13;
 }
+body .layui-form-select dl {
+    z-index: 1000;
+}
+body img[src = ""] {
+    opacity: 1;
+}
+img {
+    cursor: pointer;
+}
 
 .layui-layout-admin .layui-header {
     background-color: #ffffff;

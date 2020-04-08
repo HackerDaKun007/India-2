@@ -30,6 +30,7 @@ class Classify extends Common {
                     $msg = '添加成功';
                     $code = 1;
                     $this->cacheUpdate($cache);
+                    self::commit();
                 }
             }catch (Exception $e) {
                 $msg = '服务器异常';
@@ -47,7 +48,7 @@ class Classify extends Common {
 
     //读取缓存
     public function readCache($cache) {
-        $data = $cache::get($this->path['webUpload']);
+        $data = $cache::get($this->path['goodsClassify']);
         if(!$data) {
             $data = $this->cacheUpdate($cache);
         }
@@ -73,6 +74,7 @@ class Classify extends Common {
                     $msg = '修改成功';
                     $code = 1;
                     $this->cacheUpdate($cache);
+                    self::commit();
                 }
             }catch (Exception $e) {
                 $msg = '服务器异常';
@@ -91,6 +93,7 @@ class Classify extends Common {
                 $msg = '删除成功';
                 $code = 1;
                 $this->cacheUpdate($cache);
+                self::commit();
             }
         }catch (Exception $e) {
             $msg = '服务器异常';

@@ -55,7 +55,7 @@
             '        </div>');
     }
 
-    //控制只能数字以及只能数字两位小数点，input输入获取信息：onblur=,obj=this,如：$.Public.onkeyup(this)
+    //控制只能数字以及只能数字两位小数点，input输入获取信息：onblur=,obj=this,如：$.Public.onkeyup($(this))
     $.Public.onkeyup=function(str) {
         let val = str.val();
         val = val.replace(/[^\d.]/g,""); //清除"数字"和"."以外的字符
@@ -89,7 +89,7 @@
     //判断图片是否存在，存在就返回当前值，不存在就返回一直白底图
     $.Public.valImg = function(val){
         if(typeof val != undefined && val != '' && val != null){
-            return val;
+            return $.Public.images + val;
         }
         return '/public/img/back.png';
     }

@@ -50,6 +50,7 @@ class Web extends Common {
                 $this->cacheUpload($cache);
                 $code = 1;
                 $msg = '修改成功';
+                self::commit();
             }
         } catch (Exception $e) {
             $msg = '服务器异常';
