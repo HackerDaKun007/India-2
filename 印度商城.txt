@@ -163,3 +163,11 @@ id           carousel_id
 产品ID        goods_id
 图片          img
 排序          sort
+
+
+/** 页面栏目 **/
+表名: ln_section
+id          section_id
+名称:        username
+添加时间:    create_time
+修改时间:    update_time

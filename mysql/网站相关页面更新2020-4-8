@@ -1,7 +1,0 @@
-INSERT INTO `ln_power` VALUES (122, '关于我们', 1, 2, 121, 'Aboutus', 'index', 'Aboutus/index', 10, 1586242244, 1586242244);
-INSERT INTO `ln_power` VALUES (123, '货运信息', 1, 2, 121, 'Shippinginfo', 'index', 'Shippinginfo/index', 10, 1586251753, 1586251753);
-INSERT INTO `ln_power` VALUES (124, '常问问题', 1, 2, 121, 'Faq', 'index', 'Faq/index', 10, 1586269599, 1586270924);
-INSERT INTO `ln_power` VALUES (125, '联系我们', 1, 2, 121, 'Contactus', 'index', 'Contactus/index', 10, 1586274222, 1586274222);
-INSERT INTO `ln_power` VALUES (126, '退货政策', 1, 2, 121, 'Returnpolicy', 'index', 'Returnpolicy/index', 10, 1586277513, 1586277513);
-INSERT INTO `ln_power` VALUES (127, '条款条件', 1, 2, 121, 'Termsconditions', 'index', 'Termsconditions/index', 10, 1586279490, 1586279490);
-INSERT INTO `ln_power` VALUES (128, '隐私政策', 1, 2, 121, 'Privacypolicy', 'index', 'Privacypolicy/index', 10, 1586281100, 1586281100);

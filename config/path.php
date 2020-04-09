@@ -101,6 +101,9 @@ return [
 
     //网站相关页面缓存信息
     'Privacypolicy' => 'Privacypolicy',//隐私政策
+
+    //产品轮播
+    'carouselSelect' => 'carouselSelect',
 ];
 
 ?>

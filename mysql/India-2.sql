@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： localhost
--- 生成日期： 2020-04-07 08:02:46
+-- 生成日期： 2020-04-09 03:56:08
 -- 服务器版本： 5.7.26
 -- PHP 版本： 7.3.8
 
@@ -21,41 +21,6 @@ SET time_zone = "+00:00";
 --
 -- 数据库： `India-2`
 --
--- --------------------------------------------------------
-
---
--- 表的结构 `ln_faq`
---
-
-CREATE TABLE `ln_faq` (
-  `faq_id` int(11) NOT NULL,
-  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
-  `content` text COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- 转存表中的数据 `ln_faq`
---
-
-INSERT INTO `ln_power` VALUES (124, ''常问问题'', 1, 2, 121, ''Faq'', ''index'', ''Faq/index'', 10, 1586269599, 1586270924);
-
--- --------------------------------------------------------
-
---
--- 表的结构 `ln_shippinginfo`
---
-
-CREATE TABLE `ln_shippinginfo` (
-  `shippinginfo_id` int(11) NOT NULL,
-  `username` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
-  `content` text COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- 转存表中的数据 `ln_shippinginfo`
---
-
-INSERT INTO `ln_power` VALUES (123, '货运信息', 1, 2, 121, 'Shippinginfo', 'index', 'Shippinginfo/index', 10, 1586251753, 1586251753);
 
 -- --------------------------------------------------------
 
@@ -134,7 +99,22 @@ INSERT INTO `ln_adminrecord` (`adminrecord_id`, `admin_id`, `ip`, `ipaddr`, `bro
 (13, 6, '2130706433', '本地局网地址', 'Safari', 'iphone', 1586218278),
 (14, 6, '2130706433', '本地局网地址', 'Chrome', 'mac', 1586218354),
 (15, 6, '2130706433', '本地局网地址', 'Chrome', 'mac', 1586226080),
-(16, 6, '2130706433', '本地局网地址', 'Chrome', 'mac', 1586228203);
+(16, 6, '2130706433', '本地局网地址', 'Chrome', 'mac', 1586228203),
+(17, 6, '2130706433', '本地局网地址', 'Chrome', 'mac', 1586243474),
+(18, 6, '2130706433', '本地局网地址', 'Chrome', 'mac', 1586313067);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ln_carousel`
+--
+
+CREATE TABLE `ln_carousel` (
+  `carousel_id` int(11) NOT NULL,
+  `goods_id` int(11) NOT NULL,
+  `img` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
+  `sort` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -148,6 +128,13 @@ CREATE TABLE `ln_classify` (
   `create_time` int(11) NOT NULL,
   `update_time` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_classify`
+--
+
+INSERT INTO `ln_classify` (`classify_id`, `username`, `create_time`, `update_time`) VALUES
+(3, '123123', 1586244566, 1586244566);
 
 -- --------------------------------------------------------
 
@@ -210,6 +197,33 @@ INSERT INTO `ln_flowdate` (`flowdate_id`, `date`, `pv`, `uv`) VALUES
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `ln_goods`
+--
+
+CREATE TABLE `ln_goods` (
+  `goods_id` int(11) NOT NULL,
+  `username` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
+  `home_img` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci,
+  `price` decimal(11,2) NOT NULL,
+  `orprice` decimal(11,2) DEFAULT '0.00',
+  `freight` decimal(11,2) DEFAULT '0.00',
+  `shelves` int(11) NOT NULL,
+  `classify_id` int(11) NOT NULL,
+  `create_time` int(11) NOT NULL,
+  `update_time` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 转存表中的数据 `ln_goods`
+--
+
+INSERT INTO `ln_goods` (`goods_id`, `username`, `home_img`, `content`, `price`, `orprice`, `freight`, `shelves`, `classify_id`, `create_time`, `update_time`) VALUES
+(7, 'test', '20200408/56b89bd1c2d2e8abff92a311ed6b702d.jpg', '<p>1fdsf</p>', '100.00', '123.00', '0.00', 1, 3, 1586283218, 1586284391);
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `ln_power`
 --
 
@@ -260,7 +274,26 @@ INSERT INTO `ln_power` (`power_id`, `username`, `whether`, `grade`, `level`, `co
 (117, '网站相关设置', 1, 2, 116, 'Web', 'index', 'Web/index', 10, 1586225240, 1586225240),
 (118, '修改', 2, 3, 117, 'Web', 'edit', 'Web/edit', 10, 1586225255, 1586225255),
 (119, '产品列表', 1, 1, 0, '', '', '0', 60, 1586235400, 1586235400),
-(120, '产品归类', 1, 2, 119, 'Classify', 'index', 'Classify/index', 10, 1586235428, 1586235428);
+(120, '产品归类', 1, 2, 119, 'Classify', 'index', 'Classify/index', 10, 1586235428, 1586235428),
+(121, '网站相关页面', 1, 1, 0, '', '', '0', 30, 1586243499, 1586243508),
+(122, '关于我们', 1, 2, 121, 'Aboutus', 'index', 'Aboutus/index', 10, 1586243534, 1586243534),
+(123, '修改', 2, 3, 120, 'Aboutus', 'edit', 'Aboutus/edit', 10, 1586243550, 1586243550),
+(124, '产品列表', 1, 2, 119, 'Goods', 'index', 'Goods/index', 10, 1586251319, 1586251319),
+(125, '添加', 2, 3, 124, 'Goods', 'add', 'Goods/add', 10, 1586251336, 1586251336),
+(126, '修改', 2, 3, 124, 'Goods', 'edit', 'Goods/edit', 10, 1586251350, 1586251350),
+(127, '删除', 2, 3, 124, 'Goods', 'del', 'Goods/del', 10, 1586251366, 1586251366),
+(128, '货运信息', 1, 2, 121, 'Shippinginfo', 'index', 'Shippinginfo/index', 10, 1586313107, 1586313107),
+(129, '修改', 2, 3, 128, 'Shippinginfo', 'edit', 'Shippinginfo/edit', 10, 1586313128, 1586313128),
+(130, '常问问题', 1, 2, 121, 'Faq', 'index', 'Faq/index', 10, 1586313149, 1586313149),
+(131, '修改', 2, 3, 130, 'Faq', 'edit', 'Faq/edit', 10, 1586313194, 1586313194),
+(132, '联系我们', 1, 2, 121, 'Contactus', 'index', 'Contactus/index', 10, 1586313215, 1586313215),
+(133, '修改', 2, 3, 132, 'Contactus', 'edit', 'Contactus/edit', 10, 1586313233, 1586313233),
+(134, '退货政策', 1, 2, 121, 'Returnpolicy', 'index', 'Returnpolicy/index', 10, 1586313254, 1586313254),
+(135, '修改', 2, 3, 134, 'Returnpolicy', 'edit', 'Returnpolicy/edit', 10, 1586313271, 1586313271),
+(136, '条款条件', 1, 2, 121, 'Termsconditions', 'index', 'Termsconditions/index', 10, 1586313286, 1586313286),
+(137, '修改', 2, 3, 136, 'Termsconditions', 'edit', 'Termsconditions/edit', 10, 1586313303, 1586313303),
+(138, '隐私政策', 1, 2, 121, 'Privacypolicy', 'index', 'Privacypolicy/index', 10, 1586313318, 1586313318),
+(139, '修改', 2, 3, 138, 'Privacypolicy', 'edit', 'Privacypolicy/edit', 10, 1586313336, 1586313336);
 
 -- --------------------------------------------------------
 
@@ -455,6 +488,13 @@ ALTER TABLE `ln_adminrecord`
   ADD KEY `admin_id` (`admin_id`);
 
 --
+-- 表的索引 `ln_carousel`
+--
+ALTER TABLE `ln_carousel`
+  ADD PRIMARY KEY (`carousel_id`),
+  ADD KEY `goods_id` (`goods_id`);
+
+--
 -- 表的索引 `ln_classify`
 --
 ALTER TABLE `ln_classify`
@@ -477,6 +517,13 @@ ALTER TABLE `ln_faq`
 --
 ALTER TABLE `ln_flowdate`
   ADD PRIMARY KEY (`flowdate_id`);
+
+--
+-- 表的索引 `ln_goods`
+--
+ALTER TABLE `ln_goods`
+  ADD PRIMARY KEY (`goods_id`),
+  ADD KEY `classify_id` (`classify_id`);
 
 --
 -- 表的索引 `ln_power`
@@ -555,13 +602,19 @@ ALTER TABLE `ln_admin`
 -- 使用表AUTO_INCREMENT `ln_adminrecord`
 --
 ALTER TABLE `ln_adminrecord`
-  MODIFY `adminrecord_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `adminrecord_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- 使用表AUTO_INCREMENT `ln_carousel`
+--
+ALTER TABLE `ln_carousel`
+  MODIFY `carousel_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- 使用表AUTO_INCREMENT `ln_classify`
 --
 ALTER TABLE `ln_classify`
-  MODIFY `classify_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `classify_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- 使用表AUTO_INCREMENT `ln_contactus`
@@ -582,10 +635,16 @@ ALTER TABLE `ln_flowdate`
   MODIFY `flowdate_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
+-- 使用表AUTO_INCREMENT `ln_goods`
+--
+ALTER TABLE `ln_goods`
+  MODIFY `goods_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
 -- 使用表AUTO_INCREMENT `ln_power`
 --
 ALTER TABLE `ln_power`
-  MODIFY `power_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=121;
+  MODIFY `power_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=140;
 
 --
 -- 使用表AUTO_INCREMENT `ln_privacypolicy`
