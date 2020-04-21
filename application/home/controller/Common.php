@@ -4,17 +4,21 @@
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: dakun007 <dakun007@hotmail.com>
+// | Author: liuzhenjia <605130343@qq.com>
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 前台首页
+// | 父级控制器
 // +----------------------------------------------------------------------
 namespace app\home\controller;
 use think\Controller;
-class Index extends Controller
-{
-    public function index() {
-        $this->display();
+
+class Common extends Controller {
+
+    public function __construct()
+    {
+        parent::__construct();
     }
+
 }
+?>

@@ -58,7 +58,6 @@
          $code = 0;
          $msg = 'error';
          if($this->request->isPost() && $this->request->isAjax()) {
-
              $validate = new validateLgin();
              $input = $this->request->post();
             if(!$validate->check($input)) {

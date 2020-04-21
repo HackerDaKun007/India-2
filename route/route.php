@@ -29,6 +29,8 @@ if($domain != '/') {
     }
 }
 
+Route::alias('h','home/ht');
+
 //修改http协议
 header('X-Powered-By: reginx');
 

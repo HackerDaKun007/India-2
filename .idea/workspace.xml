@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0706be-d28b-4290-afad-0c99c53addad" name="Default Changelist" comment="" />
+    <list default="true" id="ef0706be-d28b-4290-afad-0c99c53addad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/commonConfig/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/commonConfig/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/home/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/home/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/lmgadmin/controller/Classify.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/lmgadmin/controller/Classify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/lmgadmin/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/lmgadmin/controller/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/path.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/path.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/18/8dac75fbad6c0fbf197290380a2e47.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/23/04696b152535c58353b48b99754e4b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/45/4adff567a63b4a1ce1c132b954c507.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/52/60ffed32748a5e25dda3a811716649.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/55/8bc114221ab75e417344a1c6c09633.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/58/674eb29fcce52481c292ef4aa4bbc3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/59/4c103f2c6e04c3d8ab059f031e0c1a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/79/0363563bcee0d587a7eecc6530fdbf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/90/89e94759e33f00f4cfc445c3bef613.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/a2/0486579122b5d3c74e921815389e26.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/a2/88030902a9abec6c5175326e2c8138.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/af/6925017edf2550802bc0988675f5bf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/d7/494cf87c009283b57b758daf2b467c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/f1/54b834d5997bae372763486f8c55dd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/fa/4d5000a442b472f969a8705b8a1f53.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/202004/08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/印度商城.txt" beforeDir="false" afterPath="$PROJECT_DIR$/印度商城.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +55,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZyMP2yhojrZoJi0uqtJAPwtBMN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/common/validate" />
+    <property name="last_opened_file_path" value="D:/phpstudy_pro/WWW/maccms10-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,7 +78,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www\India-2\application\home\view" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\India-2\application\lmgadmin\view" />
+      <recent name="D:\www\India-2\application\common\validate" />
+      <recent name="D:\www\India-2\application\common\model" />
+      <recent name="D:\www\India-2\application\lmgadmin\controller" />
       <recent name="$PROJECT_DIR$/application/common/validate" />
     </key>
   </component>
@@ -65,6 +101,17 @@
       <updated>1585806852825</updated>
       <workItem from="1585806855087" duration="33471000" />
       <workItem from="1586077178318" duration="56210000" />
+      <workItem from="1586481841143" duration="28012000" />
+      <workItem from="1586523073552" duration="2886000" />
+      <workItem from="1586681658994" duration="598000" />
+      <workItem from="1586743915934" duration="26544000" />
+      <workItem from="1586828147013" duration="22167000" />
+      <workItem from="1586916470067" duration="20923000" />
+      <workItem from="1587005463116" duration="20373000" />
+      <workItem from="1587175340608" duration="22656000" />
+      <workItem from="1587348436565" duration="22929000" />
+      <workItem from="1587433163025" duration="653000" />
+      <workItem from="1587434913677" duration="5532000" />
     </task>
     <servers />
   </component>
@@ -76,22 +123,41 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="184" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1586255236052" />
-    <state x="395" y="135" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586248963464">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="375" y="101" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587194336333">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="375" y="101" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587194336333" />
     <state x="395" y="135" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.806@0.23.1440.806" timestamp="1586248963464" />
-    <state x="499" y="347" key="NewPhpFileDialog" timestamp="1586325239513">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1586932559031">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586932559031" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1586959081151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586959081151" />
+    <state x="473" y="293" key="NewPhpFileDialog" timestamp="1587439237977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="473" y="293" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1587439237977" />
     <state x="499" y="347" key="NewPhpFileDialog/0.23.1440.806@0.23.1440.806" timestamp="1586325239513" />
     <state x="792" y="336" key="NewPhpFileDialog/0.23.1440.812@0.23.1440.812" timestamp="1585986042202" />
     <state x="105" y="23" key="SettingsEditor" timestamp="1585982150283">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="105" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1585982150283" />
-    <state x="301" y="23" width="838" height="806" key="search.everywhere.popup" timestamp="1586324565964">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="162" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587375269963">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="162" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1587375269963" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1587375556504">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587375556504" />
+    <state x="286" y="0" width="795" height="726" key="search.everywhere.popup" timestamp="1587203713469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="286" y="0" width="795" height="726" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587203713469" />
     <state x="301" y="23" width="838" height="806" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1586324565964" />
     <state x="301" y="23" width="838" height="808" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1585995780203" />
     <state x="301" y="23" width="838" height="812" key="search.everywhere.popup/0.23.1440.812@0.23.1440.812" timestamp="1585984065696" />

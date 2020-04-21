@@ -4,17 +4,22 @@
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: dakun007 <dakun007@hotmail.com>
+// | Author: liuzhenjia <605130343@qq.com>
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 前台首页
+// | 页面
 // +----------------------------------------------------------------------
-namespace app\home\controller;
-use think\Controller;
-class Index extends Controller
+namespace app\common\validate;
+use think\Validate;
+
+class Ht extends Validate
 {
-    public function index() {
-        $this->display();
-    }
+    protected $rule = [
+        'id' => 'require|length:1,32|number',
+    ];
+
+    protected $message = [
+        'id' => '数据异常',
+    ];
 }

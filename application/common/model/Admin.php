@@ -176,7 +176,7 @@ class Admin extends Common {
 
         $code = 0;
         $msg = '账号密码错误';
-        $where[] = [];
+        $where = [];
         $find = self::where('username', '=', $data['username'])->find();
         if(!empty($find)) {
             if($find['disable'] == 2) {
@@ -193,7 +193,7 @@ class Admin extends Common {
                     }
                     if(!$this->cache::get($this->path['adminInfo_'] . $find['admin_id'])) { //缓存不存在就更新缓存
                         $this->cacheAdmin($find, $find['admin_id'], $find['img']);
-                    };
+                    }
                     $currentTime = time();
                     $Ip = new \app\commonConfig\Ip();
                     $Browser = new \app\commonConfig\Browser();

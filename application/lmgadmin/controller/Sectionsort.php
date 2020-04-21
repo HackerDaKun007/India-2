@@ -4,22 +4,24 @@
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: dakun007 <dakun007@hotmail.com>
+// | Author: liuzhenjia <605130343@qq.com>
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 产品归类
+// | 页面分类
 // +----------------------------------------------------------------------
 namespace app\lmgadmin\controller;
-use app\common\validate\Classify as validate;
-use app\common\model\Classify as model;
-class Classify extends Common {
+use app\common\validate\Sectionsort as validate;
+use app\common\model\Sectionsort as model;
 
-    //展示
-    public function index() {
+class Sectionsort extends Common {
+
+    private $folderUrl = '../application/home/view/ht/';
+
+    //页面分类列表
+    public function index($dir = '') {
         $model = new model();
         $input = $this->request->get();
-        //展示路径
         if(self::yzGetShow($input)) {
             $validate = Validate('Page');
             $array = [];
@@ -42,39 +44,45 @@ class Classify extends Common {
         return $this->fetch();
     }
 
-    //修改
-    public function edit() {
-        $msg = 'error';
-        $code = 0;
-        if(self::yzPostAdd()) {
-            $data = $this->request->post();
-            $validate = new validate();
-            if(!$validate->scene('edit')->check($data)) {
-                $msg = $validate->getError();
-            }else {
-                $str = new model();
-                $model = $str->edit($data,$this->cache);
-                $code = $model['code'];
-                $msg = $model['msg'];
-            }
-        }
-        echo self::dataJson($code, $msg);
-    }
-
     //添加
     public function add() {
-        $msg = 'error';
         $code = 0;
+        $msg = 'error';
         if(self::yzPostAdd()) {
             $data = $this->request->post();
             $validate = new validate();
             if(!$validate->scene('add')->check($data)) {
                 $msg = $validate->getError();
-            }else {
-                $str = new model();
-                $model = $str->add($data,$this->cache);
-                $code = $model['code'];
-                $msg = $model['msg'];
+            } else {
+                $model = new model();
+                $modelRes = $model->add($data, $this->cache);
+                $foleRes = $model->folderAdd($this->folderUrl . $data['username']);
+                if (!$foleRes) {
+                    $msg = '分类目录已存在';
+                } else {
+                    $code = $modelRes['code'];
+                    $msg = $modelRes['msg'];
+                }
+            }
+        }
+        echo self::dataJson($code, $msg);
+    }
+
+    //修改
+    public function edit() {
+        $code = 0;
+        $msg = 'error';
+        if(self::yzPostAdd()) {
+            $data = $this->request->post();
+            $validate = new validate();
+            if(!$validate->scene('edit')->check($data)) {
+               $msg = $validate->getError();
+            } else {
+                $model = new model();
+                $res = $model->edit($data, $this->cache);
+                $model->folderEdit($this->folderUrl . $data['oldname'], $this->folderUrl . $data['username']);
+                $code = $res['code'];
+                $msg = $res['msg'];
             }
         }
         echo self::dataJson($code, $msg);
@@ -82,23 +90,21 @@ class Classify extends Common {
 
     //删除
     public function del() {
-        $msg = 'error';
         $code = 0;
+        $msg = 'error';
         if(self::yzPostAdd()) {
             $data = $this->request->post();
             $validate = new validate();
             if(!$validate->scene('del')->check($data)) {
                 $msg = $validate->getError();
-            }else {
-                $str = new model();
-                $model = $str->del($data['classify_id'],$this->cache);
-                $code = $model['code'];
-                $msg = $model['msg'];
+            } else {
+                $model = new model();
+                $res = $model->del($data['sectionsort_id'], $this->cache);
+                $model->folderDel($this->folderUrl . $data['username']);
+                $code = $res['code'];
+                $msg = $res['msg'];
             }
         }
         echo self::dataJson($code, $msg);
     }
-
 }
-
-?>

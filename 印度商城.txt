@@ -165,9 +165,17 @@ id           carousel_id
 排序          sort
 
 
-/** 页面栏目 **/
+/** 页面列表 **/
 表名: ln_section
 id          section_id
 名称:        username
+分类:        sectionsort_id
+添加时间:    create_time
+修改时间:    update_time
+
+/** 页面分类 **/
+表名: ln_sectionsort
+id          sectionsort_id
+分类名称:        username
 添加时间:    create_time
 修改时间:    update_time

@@ -14,9 +14,9 @@ namespace app\commonConfig;
 trait File {
 
     /**
-     * 创建目录
-     * @param string $val 目录地址
-     */
+ * 创建目录
+ * @param string $val 目录地址
+ */
     protected final function createFile($val) {
         if(empty(file_exists($val))) { //为空就创建文件夹
             if(!is_dir($val)){

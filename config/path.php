@@ -104,6 +104,12 @@ return [
 
     //产品轮播
     'carouselSelect' => 'carouselSelect',
+
+    //页面栏目
+    'Section' => 'Section',
+
+    //页面栏目
+    'Sectionsort' => 'Sectionsort',
 ];
 
 ?>

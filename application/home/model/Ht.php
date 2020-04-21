@@ -4,17 +4,22 @@
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: dakun007 <dakun007@hotmail.com>
+// | Author: liuzhenjia <605130343@qq.com>
 // +----------------------------------------------------------------------
 
 // +----------------------------------------------------------------------
-// | 前台首页
+// | 页面信息
 // +----------------------------------------------------------------------
-namespace app\home\controller;
-use think\Controller;
-class Index extends Controller
-{
-    public function index() {
-        $this->display();
+namespace app\home\model;
+use think\Model;
+
+
+class Ht extends Model {
+    public function show ($id) {
+        $section = new \app\common\model\Section();
+        $res = $section::where('section_id', '=', $id)->alias('a')->join('sectionsort b', 'a.sectionsort_id = b.sectionsort_id')->field('a.username, b.username as sort')->find();
+        if ($res) {
+            return $res;
+        }
     }
 }
